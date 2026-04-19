@@ -364,7 +364,7 @@ jobs:
             echo "CONFIG_KSU_SUSFS_SUS_PATH=y" >> out/.config
             echo "CONFIG_KSU_SUSFS_SUS_MOUNT=y" >> out/.config
             echo "CONFIG_KSU_SUSFS_SUS_KSTAT=y" >> out/.config
-            echo "CONFIG_KSU_SUSFS_SPOOF_UNAME=n" >> out/.config
+            echo "CONFIG_KSU_SUSFS_SPOOF_UNAME=y" >> out/.config
             echo "CONFIG_KSU_SUSFS_ENABLE_LOG=y" >> out/.config
             echo "CONFIG_KSU_SUSFS_HIDE_KSU_SUSFS_SYMBOLS=y" >> out/.config
             echo "CONFIG_KSU_SUSFS_SPOOF_CMDLINE_OR_BOOTCONFIG=y" >> out/.config
